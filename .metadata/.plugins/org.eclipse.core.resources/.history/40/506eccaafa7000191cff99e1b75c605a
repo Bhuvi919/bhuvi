@@ -1,0 +1,17 @@
+package package_maven.project_maven;
+
+import java.util.Scanner;
+
+public class App 
+{
+    public static void main(String[] args) {
+    	Scanner s= new Scanner(System.in);
+    	System.out.println("Enter first number:");
+    	 float a= s.nextInt();
+    	System.out.println("Enter second umber:");
+    	int b = s.nextInt();
+    	System.out.println(a+b);
+    	
+	}
+    
+}
